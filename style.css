@@ -1,9 +1,9 @@
 :root {
     --primary: #2196f3;
-    --primary-light: #64b5f6;
-    --primary-dark: #1976d2;
-    --dark-ebanina: #2d2d2d;
-    --light: #fafafa;
-    --gray-light: #e0e0e0;
-    --ebanina: #2F303A;
+    --primary-hover: #64b5f6;
+    --primary-active: #1976d2;
+    --header-bg: #2d2d2d;
+    --surface-main: #fafafa;
+    --surface-alt: #e0e0e0;
+    --footer-bg: #2F303A;
 }
