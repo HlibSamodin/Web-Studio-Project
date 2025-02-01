@@ -6,6 +6,8 @@
     --color: #212121;
     --background-color1: #F5F4FA;
     --background-color: #2F303A;
+    --main-font: "Raleway" , "sans-serif";
+    --second-font: "Roboto" , "sans-serif";
 }
 
  body {
