@@ -1,9 +1,15 @@
 :root {
-    --primary: #2196f3;
-    --hover-color: #64b5f6;
-    --button: #1976d2;
-    --header-bg: #2d2d2d;
-    --worker-bg: #F5F4FA;
-    --surface-alt: #e0e0e0;
-    --footer-bg: #2F303A;
+    --accent-color: #2196F3;
+    --logo-color: #000000;
+    --title-color: #FFFFFF;
+    --desk-color: #757575;
+    --color: #212121;
+    --background-color1: #F5F4FA;
+    --background-color: #2F303A;
 }
+
+ body {
+     color: #757575;
+     background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+ }
