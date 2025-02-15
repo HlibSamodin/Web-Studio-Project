@@ -1,131 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="style.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>portfolio</title>
+    <link href="./css/normalize.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@100;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <header>
-      <a href="#">WebStudio</a>
-      <nav>
+  <body class="body">
+    <header class="header">
+      <a class="header-logo" href="#">WebStudio</a>
+      <nav class="header-nav">
         <!-- Навігаційне меню -->
-        <ul>
-          <li><a href="#">Студія</a></li>
-          <li><a href="portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Студія</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Портфоліо</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Контакти</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="header-list">
+        <li class="header-item">
+          <a class="header-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
-    <main>
-      <section>
-        <ul>
-          <li><button>Усі</button></li>
-          <li><button>Веб-сайти</button></li>
-          <li><button>Додатки</button></li>
-          <li><button>Дезайн</button></li>
-          <li><button>Маркетинг</button></li>
+    <main class="main">
+      <section class="portfolio">
+        <ul class="category-list">
+          <li class="category-item">
+            <button class="category-button">Усі</button>
+          </li>
+          <li class="category-item">
+            <button class="category-button">Веб-сайти</button>
+          </li>
+          <li class="category-item">
+            <button class="category-button">Додатки</button>
+          </li>
+          <li class="category-item">
+            <button class="category-button">Дезайн</button>
+          </li>
+          <li class="category-item">
+            <button class="category-button">Маркетинг</button>
+          </li>
         </ul>
-        <ul>
-          <li>
-            <a href="#">
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
               <img
+                class="portfolio-img"
                 src="./images/secondpage/laptop.png"
                 alt="Laptop on a white background"
               />
-              <h3>Тенокряк</h3>
-              <p>Веб-сайт</p>
+              <h3 class="portfolio-title">Тенокряк</h3>
+              <p class="portfolio-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
               <img
+                class="portfolio-img"
                 src="./images/secondpage/basketball_poster.png"
-                alt="Lebron James jumping with colourfull dust"
+                alt="Lebron James jumping with colourful dust"
               />
-              <h3>Постер New Orlean vs Golden Star</h3>
-              <p>Дизайн</p>
+              <h3 class="portfolio-title">Постер New Orlean vs Golden Star</h3>
+              <p class="portfolio-text">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
               <img
+                class="portfolio-img"
                 src="./images/secondpage/seafood_logo.png"
                 alt="Seafood Logo"
               />
-              <h3>Ресторан Seafood</h3>
-              <p>Додаток</p>
+              <h3 class="portfolio-title">Ресторан Seafood</h3>
+              <p class="portfolio-text">Додаток</p>
             </a>
           </li>
-          <li>
-            <a href="#">
-              <img src="./images/secondpage/headphones.png" alt="" />
-              <h3>Проєкт Prime</h3>
-              <p>Маркетінг</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
               <img
+                class="portfolio-img"
+                src="./images/secondpage/headphones.png"
+                alt=""
+              />
+              <h3 class="portfolio-title">Проєкт Prime</h3>
+              <p class="portfolio-text">Маркетінг</p>
+            </a>
+          </li>
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
+              <img
+                class="portfolio-img"
                 src="./images/secondpage/blocks.png"
                 alt="Colourfull boxes laying on a white background"
               />
-              <h3>Проєкт Boxes</h3>
-              <p>Додаток</p>
+              <h3 class="portfolio-title">Проєкт Boxes</h3>
+              <p class="portfolio-text">Додаток</p>
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
               <img
+                class="portfolio-img"
                 src="./images/secondpage/monitor.png"
                 alt="Nice Apple Monitor"
               />
-              <h3>Inspiration has no Borders</h3>
-              <p>Веб-сайт</p>
+              <h3 class="portfolio-title">Inspiration has no Borders</h3>
+              <p class="portfolio-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href="#">
-              <img src="./images/secondpage/leaflet.png" alt="Leaflet" />
-              <h3>Видання Limited Edition</h3>
-              <p>Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./images/secondpage/coupon.png" alt="Coupon" />
-              <h3>Проєкт LAB</h3>
-              <p>Макетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
               <img
+                class="portfolio-img"
+                src="./images/secondpage/leaflet.png"
+                alt="Leaflet"
+              />
+              <h3 class="portfolio-title">Видання Limited Edition</h3>
+              <p class="portfolio-text">Дизайн</p>
+            </a>
+          </li>
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
+              <img
+                class="portfolio-img"
+                src="./images/secondpage/coupon.png"
+                alt="Coupon"
+              />
+              <h3 class="portfolio-title">Проєкт LAB</h3>
+              <p class="portfolio-text">Макетинг</p>
+            </a>
+          </li>
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
+              <img
+                class="portfolio-img"
                 src="./images/secondpage/working_on_a_laptop.png"
                 alt="Person working on a laptop"
               />
-              <h3>Growing Business</h3>
-              <p>Додаток</p>
+              <h3 class="portfolio-title">Growing Business</h3>
+              <p class="portfolio-text">Додаток</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#">WebStudio</a>
-      <address>
+    <footer class="footer">
+      <a class="footer-logo" href="#">WebStudio</a>
+      <address class="footer-adress">
         <!-- Контактна інформація -->
-        <ul>
-          <li>Місто Київ, пр-т Лесі Українки, 26</li>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="footer-list">
+          <li class="footer-item">Місто Київ, пр-т Лесі Українки, 26</li>
+          <li class="footer-item">
+            <a class="footer-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a href="tel:+7205550123">+720 555 0123</a>
+          <li class="footer-item">
+            <a class="footer-link" href="tel:+7205550123">+720 555 0123</a>
           </li>
         </ul>
       </address>
