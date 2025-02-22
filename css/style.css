@@ -10,8 +10,85 @@
     --second-font: "Roboto" , "sans-serif";
 }
 
- body {
+body {
      color: #757575;
      background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
- }
+}
+.container {
+     width: 1170px;
+     margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 80px;
+}
+
+.details {
+  margin-bottom: 94px;
+}
+
+.doing {
+  margin-bottom: 94px;
+}
+
+.team {
+  margin-bottom: 34px;
+}
+
+.header-logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.contact-item,
+.nav-list{
+    padding-top: 32px;
+    padding-bottom: 32px;
+     margin-bottom: 94px; 
+}
+
+.hero {
+    padding-top: 200px;
+    padding-bottom: 280px;
+}
+
+.details {
+    padding-bottom: 94px;
+}
+
+.doing-title {
+    padding-bottom: 50px;
+}
+
+.doing-item {
+    padding-bottom: 94px;
+}
+
+.team-title {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.team-list {
+    padding-bottom: 94px;
+}
+
+.footer-logo {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.footer-address {
+    padding-bottom: 60px;
+}
+
+
+.control {
+  margin-top: 94px;
+  margin-bottom: 34px;
+}
+
+.-portfolio-item{
+  margin-bottom: 30px;
+} 
