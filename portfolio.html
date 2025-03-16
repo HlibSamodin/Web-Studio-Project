@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
-    <title>WebStudio</title>
-    <link href="./css/normalize.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="./css/reset.css" rel="stylesheet" />
     <link href="./css/style.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -18,37 +18,39 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <a href="index.html" class="header-logo"
-          >Web<span class="header-span">Studio</span></a
-        >
-        <nav class="header-nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="" class="nav-link">Студія</a>
-            </li>
-            <li class="nav-item">
-              <a href="portfolio.html" class="nav-link">Портфоліо</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="info-list">
-          <li class="info-item">
-            <a href="mailto:@devstudio.com" class="info-email info-link"
+        <div class="header-nav-container">
+          <a href="index.html" class="header-logo"
+            >Web<span class="header-logo_span">Studio</span></a
+          >
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-item">
+                <a href="" class="header-nav-link">Студія</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="portfolio.html" class="header-nav-link">Портфоліо</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="" class="header-nav-link">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="header-info-list">
+          <li class="header-info-item">
+            <a href="mailto:@devstudio.com" class="header-info-link"
               >info@devstudio.com</a
             >
           </li>
-          <li class="info-item">
-            <a href="tel:+380961111111" class="info-phone info-link"
+          <li class="header-info-item">
+            <a href="tel:+380961111111" class="header-info-link"
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
       </div>
     </header>
-    <!-- F I N I S H - H E A D E R -->
+    <!-- !H E A D E R  E N D -->
     <main class="main">
       <section class="category">
         <div class="container">
@@ -71,120 +73,119 @@
           </ul>
         </div>
       </section>
-      <section class="portfolio">
-        <div class="container portfolio-container">
-          <ul class="portfolio-list">
-            <li class="portfolio-item">
-              <a href="" class="portfolio-link">
+      <section class="porfolio">
+        <div class="container porfolio-container">
+          <ul class="porfolio-list">
+            <li class="porfolio-item">
+              <a href="" class="porfolio-link">
                 <img
                   src="./images/secondpage/laptop.png"
                   alt="Laptop on a white background"
-                  class="portfolio-image"
+                  class="porfolio-image"
                 />
-                <h3 class="portfolio-title">Технокряк</h3>
-                <p class="portfolio-subtitle">Веб-сайт</p>
+                <h3 class="porfolio-title">Технокряк</h3>
+                <p class="porfolio-subtitle">Веб-сайт</p>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a href="" class="portfolio-link">
+            <li class="porfolio-item">
+              <a href="" class="porfolio-link">
                 <img
                   src="./images/secondpage/basketball_poster.png"
                   alt="Lebron James jumping with colourful dust"
-                  class="portfolio-image"
+                  class="porfolio-image"
                 />
-                <h3 class="portfolio-title">
-                  Постер New Orlean vs Golden Star
-                </h3>
-                <p class="portfolio-subtitle">Дизайн</p>
+                <h3 class="porfolio-title">Постер New Orlean vs Golden Star</h3>
+                <p class="porfolio-subtitle">Дизайн</p>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a href="" class="portfolio-link">
+            <li class="porfolio-item">
+              <a href="" class="porfolio-link">
                 <img
                   src="./images/secondpage/seafood_logo.png"
                   alt="Seafood Logo"
-                  class="portfolio-image"
+                  class="porfolio-image"
                 />
-                <h3 class="portfolio-title">Ресторан Seafood</h3>
-                <p class="portfolio-subtitle">Додаток</p>
+                <h3 class="porfolio-title">Ресторан Seafood</h3>
+                <p class="porfolio-subtitle">Додаток</p>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a href="" class="portfolio-link">
+            <li class="porfolio-item">
+              <a href="" class="porfolio-link">
                 <img
                   src="./images/secondpage/headphones.png"
                   alt="Headphones"
-                  class="portfolio-image"
+                  class="porfolio-image"
                 />
-                <h3 class="portfolio-title">Проєкт Prime</h3>
-                <p class="portfolio-subtitle">Маркетинг</p>
+                <h3 class="porfolio-title">Проєкт Prime</h3>
+                <p class="porfolio-subtitle">Маркетинг</p>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a href="" class="portfolio-link">
+            <li class="porfolio-item">
+              <a href="" class="porfolio-link">
                 <img
                   src="./images/secondpage/blocks.png"
                   alt="Colourfull boxes laying on a white background"
-                  class="portfolio-image"
+                  class="porfolio-image"
                 />
-                <h3 class="portfolio-title">Прооєкт</h3>
-                <p class="portfolio-subtitle">Додаток</p>
+                <h3 class="porfolio-title">Прооєкт</h3>
+                <p class="porfolio-subtitle">Додаток</p>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a href="" class="portfolio-link">
+            <li class="porfolio-item">
+              <a href="" class="porfolio-link">
                 <img
                   src="./images/secondpage/monitor.png"
                   alt="Nice Apple Monito"
-                  class="portfolio-image"
+                  class="porfolio-image"
                 />
-                <h3 class="portfolio-title">inspiration has no borders</h3>
-                <p class="portfolio-subtitle">Веб-сайт</p>
+                <h3 class="porfolio-title">inspiration has no borders</h3>
+                <p class="porfolio-subtitle">Веб-сайт</p>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a href="" class="portfolio-link">
+            <li class="porfolio-item">
+              <a href="" class="porfolio-link">
                 <img
                   src="./images/secondpage/leaflet.png"
                   alt="Leaflet"
-                  class="advertisportfolioements-image"
+                  class="porfolio-image"
                 />
-                <h3 class="portfolio-title">Видання Limited Edition</h3>
-                <p class="portfolio-subtitle">Дизайн</p>
+                <h3 class="porfolio-title">Видання Limited Edition</h3>
+                <p class="porfolio-subtitle">Дизайн</p>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a href="" class="portfolio-link">
+            <li class="porfolio-item">
+              <a href="" class="porfolio-link">
                 <img
                   src="./images/secondpage/coupon.png"
                   alt="Project-LAB"
-                  class="portfolio-image"
+                  class="porfolio-image"
                 />
-                <h3 class="portfolio-title">Проєкт LAB</h3>
-                <p class="portfolio-subtitle">Маркетинг</p>
+                <h3 class="porfolio-title">Проєкт LAB</h3>
+                <p class="porfolio-subtitle">Маркетинг</p>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a href="" class="portfolio-link">
+            <li class="porfolio-item">
+              <a href="" class="porfolio-link">
                 <img
                   src="./images/secondpage/working_on_a_laptop.png"
                   alt="Person Working on a laptop"
-                  class="portfolio-image"
+                  class="porfolio-image"
                 />
-                <h3 class="portfolio-title">Growing Business</h3>
-                <p class="portfolio-subtitle">Додаток</p>
+                <h3 class="porfolio-title">Growing Business</h3>
+                <p class="porfolio-subtitle">Додаток</p>
               </a>
             </li>
           </ul>
         </div>
       </section>
     </main>
+
     <footer class="footer">
       <div class="container footer-container">
         <a href="index.html" class="footer-logo"
           >Web<span class="footer-logo-span">Studio</span></a
         >
-        <!-- F O O T E R - A N D - A D R E S S  -->
+        <!-- F  O O T E R - A N D - A D R E S S -->
         <address class="address">
           <ul class="address-list">
             <li class="address-item">м. Київ, пр-т Лесі Українки, 26</li>

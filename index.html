@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link href="./css/normalize.css" rel="stylesheet" />
+    <link href="./css/reset.css" rel="stylesheet" />
     <link href="./css/style.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -16,46 +16,42 @@
     />
   </head>
   <body>
-    <!-- ------------- -->
-    <!-- HEADER -->
-    <!-- ------------- -->
+    <!-- шапка -->
     <header class="header">
       <div class="container header-container">
-        <a href="index.html" class="header-logo"
-          >Web<span class="header-span">Studio</span></a
-        >
-        <nav class="header-nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="" class="nav-link">Студія</a>
-            </li>
-            <li class="nav-item">
-              <a href="portfolio.html" class="nav-link">Портфоліо</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="info-list">
-          <li class="info-item">
-            <a href="mailto:@devstudio.com" class="info-email info-link"
+        <div class="header-nav-container">
+          <a href="index.html" class="header-logo"
+            >Web<span class="header-logo_span">Studio</span></a
+          >
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-item">
+                <a href="" class="header-nav-link">Студія</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="portfolio.html" class="header-nav-link">Портфоліо</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="" class="header-nav-link">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="header-info-list">
+          <li class="header-info-item">
+            <a href="mailto:@devstudio.com" class="header-info-link"
               >info@devstudio.com</a
             >
           </li>
-          <li class="info-item">
-            <a href="tel:+380961111111" class="info-phone info-link"
+          <li class="header-info-item">
+            <a href="tel:+380961111111" class="header-info-link"
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
       </div>
     </header>
-    <!-- ------------- -->
-    <!-- FINISH OF THE HEADER -->
-    <!-- ------------- -->
-    <!-- HERO -->
-    <!-- ------------- -->
+    <!-- !H E A D E R  E N D -->
     <main>
       <section class="hero">
         <div class="container hero-container">
@@ -66,9 +62,7 @@
           <button type="button" class="hero-button">Замовити послугу</button>
         </div>
       </section>
-      <!-- ------------- -->
-      <!-- FINISH OF HERO -->
-      <!-- ------------- -->
+      <!-- !H E R O  E N D -->
       <section class="details">
         <div class="container details-container">
           <ul class="details-list">
@@ -113,44 +107,42 @@
           </ul>
         </div>
       </section>
-      <!-- ------------- -->
-      <!--FINISH OF DETAILS -->
-      <!-- ------------- -->
+      <!--! B E N E F I T S  E N D -->
       <section class="doing">
         <div class="container doing-container">
           <h2 class="doing-title">Чим ми займаємося</h2>
           <ul class="doing-list">
             <li class="doing-item">
               <img
-                class="doing-img"
                 src="./images/mainpage/coding.png"
-                alt="Person coding in the really nice room with purple background"
+                alt="Person Coding"
                 width="300"
                 height="300"
+                class="doing-img"
               />
             </li>
             <li class="doing-item">
               <img
-                class="doing-img"
                 src="./images/mainpage/sms.png"
-                alt="Person designing something or sending sms"
+                alt="Person marketing"
                 width="300"
                 height="300"
+                class="doing-img"
               />
             </li>
             <li class="doing-item">
               <img
-                class="doing-img"
                 src="./images/mainpage/colour.png"
-                alt="Person trying to pick the colour for the design"
+                alt="Person making Design"
                 width="300"
                 height="300"
+                class="doing-img"
               />
             </li>
           </ul>
         </div>
       </section>
-      <!--! F I N I S H - D O I N  G  -->
+      <!--! D O I N G  E N D -->
 
       <section class="team">
         <div class="container team-container">
@@ -169,7 +161,7 @@
               <img
                 class="team-img"
                 src="./images/mainpage/frontend-developer.jpg"
-                alt="Frontend Dev"
+                alt="Frontend Developer"
               />
               <h4 class="team-name">Ольга Рєпіна</h4>
               <p class="team-role">Frontend Developer</p>
@@ -178,7 +170,7 @@
               <img
                 class="team-img"
                 src="./images/mainpage/marketing.jpg"
-                alt="Marketing Proffesional"
+                alt="Marketing"
               />
               <h4 class="team-name">Микола Тарасов</h4>
               <p class="team-role">Marketing</p>
@@ -187,7 +179,7 @@
               <img
                 class="team-img"
                 src="./images/mainpage/ui-designer.jpg"
-                alt="User Interface Designer"
+                alt="UI Designer"
               />
               <h4 class="team-name">Михайло Єрмаков</h4>
               <p class="team-role">UI Designer</p>
@@ -202,7 +194,7 @@
         <a href="index.html" class="footer-logo"
           >Web<span class="footer-logo-span">Studio</span></a
         >
-        <!-- F  O O T E R - A N D - A D R E S S -->
+        <!-- !Дані, адреса -->
         <address class="address">
           <ul class="address-list">
             <li class="address-item">м. Київ, пр-т Лесі Українки, 26</li>
