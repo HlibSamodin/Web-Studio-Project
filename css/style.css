@@ -25,7 +25,7 @@
   --secondary-font: "Raleway", sans-serif;
 }
 
-/* F I N I S H  - V A R I A B L E S  */
+/* S T A R T - G L O B A L -S T Y L E S */
 
 * {
   box-sizing: border-box;
@@ -49,7 +49,7 @@ ul {
   width: 1170px;
   margin: 0 auto;
 }
-
+/* S T A R T - H E A D E R  */
 .header {
   background-color: var(--about-us);
   border-bottom: 1px solid;
@@ -114,8 +114,7 @@ ul {
   font-size: 14px;
 }
 
-/*! H E A D E R   E N D */
-
+/* S T A R T - H E R O  */
 .hero {
   padding-top: 200px;
   padding-bottom: 280px;
@@ -153,7 +152,7 @@ ul {
 }
 
 
-/*! H E R O  E N D */
+/* S T A R T  - D E T A I L S  */
 
 .details {
   padding-top: 94px;
@@ -193,7 +192,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-/* !B E N E F I T S  E N D */
+/* S T A R T - D O I N G*/
 
 .doing {
   padding-bottom: 94px;
@@ -224,7 +223,7 @@ ul {
   background-color: var(--about-us);
 }
 
-/* !D O I N G  E N D */
+/* S T A R T  - T E A  M */
 .team {
   background-color: var(--background-team);
   padding-bottom: 94px;
@@ -284,7 +283,7 @@ ul {
 }
 
 
-/* !T E A M  E N D */
+/* S T A R T - F O O T E R */
 
 .footer {
   background-color: var(--footer-bg);
@@ -347,7 +346,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-/* !P O R T F O L I O */
+/* S T A R T - C A T E G O R Y  */
 
 .category-list {
   display: flex;
@@ -383,7 +382,7 @@ ul {
 
 
 
-/* !A D V  S E C T I O N */
+/* P O R T F O L I O - S T A R T */
 
 .porfolio-container {
   display: flex;
