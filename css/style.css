@@ -316,21 +316,21 @@ ul {
 }
 
 
-.address {
+.footer-address {
   padding-bottom: 60px;
   display: flex;
   flex-direction: column;
   gap: 9px;
 }
 
-.address-list {
+.footer-list {
   display: flex;
   flex-direction: column;
   text-decoration: none;
   font-style: normal;
 }
 
-.address-item {
+.footer-item {
   padding-top: 20px;
   color: var(--about-us);
   font-size: 14px;
@@ -339,7 +339,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.address-link {
+.footer-link {
   color: var(--footer-text);
   font-size: 14px;
   line-height: 24px;
