@@ -25,7 +25,7 @@
   --secondary-font: "Raleway", sans-serif;
 }
 
-/* S T A R T - G L O B A L -S T Y L E S */
+/* F I N I S H  - V A R I A B L E S  */
 
 * {
   box-sizing: border-box;
@@ -49,7 +49,7 @@ ul {
   width: 1170px;
   margin: 0 auto;
 }
-/* S T A R T - H E A D E R  */
+
 .header {
   background-color: var(--about-us);
   border-bottom: 1px solid;
@@ -114,7 +114,8 @@ ul {
   font-size: 14px;
 }
 
-/* S T A R T - H E R O  */
+/*! H E A D E R   E N D */
+
 .hero {
   padding-top: 200px;
   padding-bottom: 280px;
@@ -152,7 +153,7 @@ ul {
 }
 
 
-/* S T A R T  - D E T A I L S  */
+/*! H E R O  E N D */
 
 .details {
   padding-top: 94px;
@@ -192,7 +193,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-/* S T A R T - D O I N G*/
+/* !B E N E F I T S  E N D */
 
 .doing {
   padding-bottom: 94px;
@@ -223,7 +224,7 @@ ul {
   background-color: var(--about-us);
 }
 
-/* S T A R T  - T E A  M */
+/* !D O I N G  E N D */
 .team {
   background-color: var(--background-team);
   padding-bottom: 94px;
@@ -283,7 +284,7 @@ ul {
 }
 
 
-/* S T A R T - F O O T E R */
+/* !T E A M  E N D */
 
 .footer {
   background-color: var(--footer-bg);
@@ -315,21 +316,21 @@ ul {
 }
 
 
-.address {
+.footer-address {
   padding-bottom: 60px;
   display: flex;
   flex-direction: column;
   gap: 9px;
 }
 
-.address-list {
+.footer-list {
   display: flex;
   flex-direction: column;
   text-decoration: none;
   font-style: normal;
 }
 
-.address-item {
+.footer-item {
   padding-top: 20px;
   color: var(--about-us);
   font-size: 14px;
@@ -338,7 +339,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.address-link {
+.footer-link {
   color: var(--footer-text);
   font-size: 14px;
   line-height: 24px;
@@ -346,7 +347,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-/* S T A R T - C A T E G O R Y  */
+/* !P O R T F O L I O */
 
 .category-list {
   display: flex;
@@ -382,7 +383,7 @@ ul {
 
 
 
-/* P O R T F O L I O - S T A R T */
+/* !A D V  S E C T I O N */
 
 .porfolio-container {
   display: flex;
