@@ -425,6 +425,7 @@ F O O T E R  - F I N I S H
 .category-button:hover {
   background-color: var(--brand-color);
   color: var(--about-us);
+  font-family: var(--main-font);
 }
 
 /* ------------------------
