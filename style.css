@@ -128,7 +128,7 @@ ul {
   background: linear-gradient(to right,
       var(--hero-overlay),
       var(--hero-overlay)),
-      url(./images/main-page/hero-bg.jpg) center / cover no-repeat;
+    url(./images/main-page/hero-bg.jpg) center / cover no-repeat;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -406,7 +406,6 @@ ul {
 .category-button {
   background-color: var(--team-bg);
   color: var(--titles-color);
-  font-family: var(--main-font);
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
@@ -416,6 +415,7 @@ ul {
   padding-right: 22px;
   padding-left: 22px;
   text-align: center;
+  font-family: var(--main-font);
 }
 
 .category-button:hover {
