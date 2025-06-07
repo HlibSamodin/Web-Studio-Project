@@ -253,7 +253,7 @@ ul {
 }
 
 .doing,
-.benefits {
+.details {
   background-color: var(--about-us);
 }
 
@@ -364,12 +364,6 @@ ul {
   gap: 9px;
 }
 
-.footer-address-list {
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
-  font-style: normal;
-}
 
 .footer-address-item {
   padding-top: 20px;
@@ -448,7 +442,7 @@ ul {
   background-color: var(--about-us);
   flex-direction: column;
   text-align: start;
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .porfolio-item:hover {
